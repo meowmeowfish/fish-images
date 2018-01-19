@@ -3,25 +3,27 @@ Fxxking manual image dataset
 
 # How to use
 
-## Init Repository
+## 1. Init Repository （只有第一次要執行）
 ```
 git clone https://github.com/meowmeowfish/fish-images
 ```
 
-## Upload images
-
-手動更新完圖片以後，在**fish-images**資料夾裡，執行下列指令：
-
-```
-git add .
-git commit -m "你的更新訊息"
-git push origin master
-```
-
-## 抓下最新的其他人上傳過的圖片
+## 2. 更新本機端資料夾到最新狀態
 
 在**fish-images**資料夾裡，執行下列指令：
 
 ```
 git pull
+```
+
+## 3. 上傳圖片到這個Github repository
+
+在本機端手動加完圖片以後，在**fish-images**資料夾裡，執行下列指令：
+
+（須先執行2.更新本機資料夾到最新狀態）
+
+```
+git add .
+git commit -m "你的更新訊息"
+git push origin master
 ```
