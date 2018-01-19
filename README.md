@@ -1,2 +1,2 @@
-# saury-images
+# fish-images
 Fxxking manual image dataset
